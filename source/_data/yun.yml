@@ -23,3 +23,91 @@ banner:
   go_down:
     enable: true
     icon: icon-arrow-down-s-line
+
+#社交媒体
+social:
+  - name: GitHub
+    link: https://github.com/H0ypothesis
+    icon: icon-github-line
+    color: "#181717"
+  - name: E-Mail
+    link: https://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=sunjia21jun@vip.qq.com
+    icon: icon-mail-line
+    color: "#8E71C1"
+  - name: QQ
+    link: http://wpa.qq.com/msgrd?v=3&uin=744032262&site=qq&menu=yes
+    icon: icon-qq-line
+    color: "#12B7F5"
+  - name: GitHub
+    link: https://github.com/H0ypothesis
+    icon: icon-github-line
+    color: "#181717"
+  - name: 微博
+    link: https://weibo.com/3291598991/
+    icon: icon-weibo-line
+    color: "#E6162D"
+  - naem: 豆瓣
+    link: https://www.douban.com/people/137338826/
+    icon: icon-douban-line
+    color: "#007722"
+  - name: 知乎
+    link: https://www.zhihu.com/people/sun-jia-jun-26/
+    icon: icon-zhihu-line
+    color: "0084FF"
+  - name: 哔哩哔哩动画
+    link: https://www.bilibili.com
+    icon: icon-bilibili-line
+    color: "FF8EB3"
+
+#友链
+pages:
+  我的小伙伴们:
+    url: /links/
+    icon: icon-genderless-line
+    color: dodgerblue
+  喜欢的女孩子:
+    url: /girls/
+    icon: icon-women-line
+    color: hotpink
+
+girls:
+  enable: true
+
+github_issues:
+  enable: false
+github_discussions:
+  enable: false
+
+fireworks:
+  enable: true
+  src: /js/ui/fireworks.js
+  colors:
+    - "138, 43, 226"
+    - "218, 112, 214"
+    - "160, 32, 240"
+
+#页脚时间
+footer:
+  live_time:
+    enable: true
+    prefix: 本博客已萌萌哒地运行
+    suffix: (●'◡'●)
+    start_time: "2021-07-17T21:00:00"
+
+#一言API接口
+say:
+  enable: true
+  api: https://cdn.jsdelivr.net/gh/ElpsyCN/say@gh-pages/sentences.json
+  src: /js/say.js
+  # https://developer.hitokoto.cn/sentence/
+  hitokoto:
+    enable: true
+    api: https://v1.hitokoto.cn
+
+#背景
+
+bg_image:
+  enable: true
+  url: https://www.hualigs.cn/image/60f33e511a4d9.jpg
+  dark: https://www.hualigs.cn/image/60f33ecf1ff68.jpg
+  opacity: 0.8

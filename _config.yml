@@ -3,17 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: 压缩失真の小窝
+#subtitle: ''
+description: '愿逐月华流照君'
 keywords:
-author: John Doe
+author: H0ypothesis
 language: en
-timezone: ''
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://github.com/H0ypothesis/h0ypothesis.github.io
+
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
