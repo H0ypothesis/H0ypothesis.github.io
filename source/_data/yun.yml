@@ -1,8 +1,25 @@
 mode: auto
 
+#头像
 avatar:
+  enable: true
   url: /images/avatar.jpg
+  rounded: true
+  opacity: 1
   status:
     enable: true
     emoji: 🌑
-    message: Looking for dawn.
+    message: 愿逐月华流照君。
+
+#标语
+banner:
+  enable: true
+  title: 压缩失真の小站
+  src: /js/ui/banner.js
+  border: true
+  cloud:
+    enable: true
+    color: "white"
+  go_down:
+    enable: true
+    icon: icon-arrow-down-s-line
