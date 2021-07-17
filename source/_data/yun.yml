@@ -108,6 +108,6 @@ say:
 
 bg_image:
   enable: true
-  url: https://www.hualigs.cn/image/60f33e511a4d9.jpg
-  dark: https://www.hualigs.cn/image/60f33ecf1ff68.jpg
+  url: https://cdn.jsdelivr.net/gh/h0ypothesis/img/webpage/background.jpg
+  dark: https://cdn.jsdelivr.net/gh/h0ypothesis/img/webpage/backnight.jpg
   opacity: 0.8
